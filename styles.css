@@ -1,5 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+/* body */
+
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(127, 196, 196);
+    background-image: linear-gradient(black, #001E36);
+    color: white;
+    text-align: center;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    padding: 6px;
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-links li{
+    margin-right: 40px;
+}
+.social-logos{
+    padding: 15px;
+}
+.social-logos img{
+    margin: 4px;
+}
+
+/* Main */
+
+h1,h2,h3,h4,p{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-size: 4rem;
+    margin: 0;
+    margin-top: 70px;
+}
+h4{
+    margin: 20px;
+    font-weight: 300;
+    font-size: 2rem;
+}
+h1{
+    margin: 0;
+    font-size: 5rem;
+}
+p{
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+/* buttons */
+
+
+.button-1{
+    background-color: #35DBFF;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 8px 30px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 1px 1px 5px 0.5px #3561FF, -1px -1px 5px 0.5px #3561FF;
+}
+.button-2{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 8px 30px;
+    margin-left: 20px;
+    border-radius: 40px;
+    border: white solid 1px;
+}
+.button-container{
+    position: relative;
+}
+.grid-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    position: relative;
+    top: -15px;
+}
+.button-4{
+    grid-column-start: 3;
+}
+.button-3{
+    background-color: #181818;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    height: 80px;
+    box-shadow: 0 0px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    position: relative;
+    box-shadow: 2px 2px 10px black;
+}
+.button-4{
+    background-color: #181818;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    height: 80px;
+    box-shadow: 0 0px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    position: relative;
+    box-shadow: 2px 2px 10px black;
+}
+.button-5{
+    background-color: #181818;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    height: 80px;
+    box-shadow: 0 0px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    position: relative;
+    box-shadow: 2px 2px 10px black;
+}
+.button-6{
+    background-color: #181818;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    height: 80px;
+    box-shadow: 0 0px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    position: relative;
+    box-shadow: 2px 2px 10px black;
+}
+.button-7{
+    background-color: #181818;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    height: 80px;
+    box-shadow: 0 0px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    position: relative;
+    box-shadow: 2px 2px 10px black;
+}
+.button-8{
+    background-color: #181818;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    height: 80px;
+    box-shadow: 0 0px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    position: relative;
+    box-shadow: 2px 2px 10px black;
+}
+.button-9{
+    background-color: #181818;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    height: 80px;
+    box-shadow: 0 0px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    position: relative;
+    box-shadow: 2px 2px 10px black;
+}
+.button-10{
+    background-color: #181818;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    height: 80px;
+    box-shadow: 0 0px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    position: relative;
+    box-shadow: 2px 2px 10px black;
+}
+.grid-container button{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.grid-container button img{
+    position: absolute;
+    top: 25px;
+    left: 30px;
 }
