@@ -106,7 +106,6 @@ p{
     outline: none;
     border: none;
     position: relative;
-    box-shadow: 2px 4px 6px black;
 }
 .button-4{
     background-color: #181818;
@@ -119,7 +118,6 @@ p{
     outline: none;
     border: none;
     position: relative;
-    box-shadow: 2px 4px 6px black;
 }
 .button-5{
     background-color: #181818;
@@ -132,7 +130,6 @@ p{
     outline: none;
     border: none;
     position: relative;
-    box-shadow: 2px 4px 6px black;
 }
 .button-6{
     background-color: #181818;
@@ -145,7 +142,6 @@ p{
     outline: none;
     border: none;
     position: relative;
-    box-shadow: 2px 4px 6px black;
 }
 .button-7{
     background-color: #181818;
@@ -158,7 +154,6 @@ p{
     outline: none;
     border: none;
     position: relative;
-    box-shadow: 2px 4px 6px black;
 }
 .button-8{
     background-color: #181818;
@@ -171,7 +166,6 @@ p{
     outline: none;
     border: none;
     position: relative;
-    box-shadow: 2px 4px 6px black;
 }
 .button-9{
     background-color: #181818;
@@ -184,7 +178,6 @@ p{
     outline: none;
     border: none;
     position: relative;
-    box-shadow: 2px 4px 6px black;
 }
 .button-10{
     background-color: #181818;
@@ -197,11 +190,11 @@ p{
     outline: none;
     border: none;
     position: relative;
-    box-shadow: 2px 4px 6px black;
 }
 .grid-container button{
     font-weight: 400;
     font-size: 2rem;
+    box-shadow: 6px 7px 7px black;
 }
 .grid-container button img{
     position: absolute;
