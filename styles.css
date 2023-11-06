@@ -8,6 +8,7 @@ body{
     background-image: linear-gradient(black, #001E36);
     color: white;
     text-align: center;
+    height: 100vh;
 }
 .header-container{
     display: flex;
