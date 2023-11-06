@@ -13,7 +13,7 @@ body{
 .header-container{
     display: flex;
     justify-content: space-around;
-    margin-top: 12px;
+    
 }
 .nav-links{
     display: flex;
@@ -28,14 +28,14 @@ body{
     margin-right: 40px;
 }
 .social-logos{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .social-logos img{
     margin: 4px;
 }
 hr{
-    margin: 10px;
     border: #363636 1px solid;
+    margin: 0;
 }
 
 /* Main */
